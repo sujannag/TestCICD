@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CycloneDDS xmlns="https://cdds.io/config">
+  <Domain>
+    <Id>42</Id> <!-- Replace 42 with your desired domain ID -->
+    <General>
+      <NetworkInterfaceAddress>enp0s3</NetworkInterfaceAddress>
+    </General>
+  </Domain>
+</CycloneDDS>

@@ -1,0 +1,8 @@
+
+module ImageTransfer {
+
+    struct ImageAndMetadata {
+        sequence<octet> image_data;  // Image data buffer (binary data)
+        sequence<octet> json_metadata;  // JSON metadata (as a data blob)
+    };
+};

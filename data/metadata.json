@@ -1,0 +1,62 @@
+{
+    "metadata": {
+      "timestamp": "2023-04-21T14:30:15.123456Z",
+      "frame_id": 1,
+      "camera_id": "front_camera_001",
+      "camera_pose": {
+        "x": 1.23,
+        "y": 4.56,
+        "z": 7.89,
+        "qx": 0.1,
+        "qy": 0.2,
+        "qz": 0.3,
+        "qw": 0.4
+      },
+      "focal_length": 35.0,
+      "aperture": 5.6,
+      "shutter_speed": 0.001,
+      "iso": 100,
+      "white_balance": "auto",
+      "compression": "JPEG",
+      "vehicle_state": {
+        "speed": 25.0,
+        "acceleration": 0.5,
+        "steering_angle": -3.0,
+        "brake_position": 0.0,
+        "accelerator_position": 0.7
+      },
+      "weather_conditions": {
+        "temperature": 22.0,
+        "humidity": 65.0,
+        "precipitation": 0.0
+      },
+      "road_info": {
+        "road_type": "urban",
+        "road_condition": "dry"
+      },
+      "traffic_info": {
+        "num_vehicles": 5,
+        "vehicle_types": ["car", "truck", "car", "motorcycle", "car"],
+        "vehicle_positions": [10.0, 15.0, 25.0, 30.0, 45.0],
+        "vehicle_velocities": [20.0, 18.0, 22.0, 25.0, 20.0]
+      },
+      "object_annotations": [
+        {
+          "object_type": "vehicle",
+          "bounding_box": [100, 120, 200, 220],
+          "segmentation_mask": [],
+          "keypoints": []
+        },
+        {
+          "object_type": "pedestrian",
+          "bounding_box": [300, 320, 400, 420],
+          "segmentation_mask": [],
+          "keypoints": []
+        }
+      ]
+    },
+    "image_data": {
+      "image_path": "./image.jpg"
+    }
+  }
+  
